@@ -15,11 +15,12 @@
 
 <script>
 import Stepper from './Stepper';
+//import { smsService } from '../services/sms.service';
 export default {
     name : 'LoginScreen',
     components : {
         Stepper,
-    }
+    },
 }
 </script>
 
@@ -59,11 +60,12 @@ export default {
 
     @media only screen and (max-width: 710px) {
         .box{
+            display: block;
             width: 100%;
             height: 100%;
         }
         .illustraion{
-            display: none;
+            height: 200px;
         }
     }
 

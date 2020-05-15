@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "vee-validate": "^3.3.0",
     "vue": "^2.6.11",
-    "vue-material": "^1.0.0-beta-13"
+    "vue-material": "^1.0.0-beta-13",
+    "vuelidate": "^0.7.5",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
